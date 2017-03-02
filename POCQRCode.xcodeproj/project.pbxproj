@@ -193,13 +193,17 @@
 				TargetAttributes = {
 					51C4F8921DD24BCE00A2287C = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2PM5WY4P2M;
+						LastSwiftMigration = 0810;
 					};
 					51C4F8A61DD24BCF00A2287C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 51C4F8921DD24BCE00A2287C;
 					};
 					51C4F8B11DD24BCF00A2287C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 51C4F8921DD24BCE00A2287C;
 					};
 				};
@@ -399,10 +403,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PM5WY4P2M;
 				INFOPLIST_FILE = POCQRCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmltd.POCQRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -410,10 +416,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2PM5WY4P2M;
 				INFOPLIST_FILE = POCQRCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmltd.POCQRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -425,6 +433,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmltd.POCQRCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCQRCode.app/POCQRCode";
 			};
 			name = Debug;
@@ -437,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmltd.POCQRCodeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/POCQRCode.app/POCQRCode";
 			};
 			name = Release;
@@ -448,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmltd.POCQRCodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = POCQRCode;
 			};
 			name = Debug;
@@ -459,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asmltd.POCQRCodeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = POCQRCode;
 			};
 			name = Release;
@@ -482,6 +494,7 @@
 				51C4F8BD1DD24BCF00A2287C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51C4F8BE1DD24BCF00A2287C /* Build configuration list for PBXNativeTarget "POCQRCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				51C4F8C01DD24BCF00A2287C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51C4F8C11DD24BCF00A2287C /* Build configuration list for PBXNativeTarget "POCQRCodeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				51C4F8C31DD24BCF00A2287C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -36,5 +36,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Used to scan qr codes</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>edx</string>
+	</array>
 </dict>
 </plist>
